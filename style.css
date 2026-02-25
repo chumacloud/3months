@@ -1,0 +1,33 @@
+.header {
+    color: blue;
+    background-color: bisque;
+}
+
+.course {
+    color: blue;
+    background-color: bisque;
+}
+
+.course-exp {
+    color: rgb(172, 18, 192);
+    background-color: black;
+
+}
+
+h4 {
+    color: blue;
+    background-color: bisque;
+}
+
+.intro {
+    background: linear-gradient(red, blue);
+}
+
+.contact{
+    background: radial-gradient(red, rgb(255, 0, 242));
+}
+
+.services{
+    background-color: mediumturquoise;
+    width: 250px;
+}

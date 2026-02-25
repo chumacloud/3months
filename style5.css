@@ -1,0 +1,61 @@
+.header {
+    color: blue;
+    background-color: bisque;
+}
+
+.course {
+    color: blue;
+    background-color: bisque;
+}
+
+.course-exp {
+    color: rgb(172, 18, 192);
+    background-color: black;
+    width: 100%;
+
+}
+
+h4 {
+    color: blue;
+    background-color: bisque;
+}
+
+.intro {
+    /* background: linear-gradient(10deg, red, blue); */
+    background: url(images/about.jpg);
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 800;
+}
+
+/* adding oveelay */
+/* just join the linear with the url at it end, the reduce the clolrs */
+.intro2{
+        background: linear-gradient(10deg, rgba(72, 255, 0, 0), rgba(0, 0, 255, 0.685)), url(images/about.jpg); 
+            height: 300px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: rgb(19, 18, 18);
+            font-size: 3rem;
+
+            font-family: "Playfair Display", serif;
+                font-optical-sizing: auto;
+                font-weight: 800;
+                font-style: normal;
+}
+
+/* note the % */
+.contact {
+    background: radial-gradient(red, rgb(255, 0, 242));
+    width: 80%;
+}
+
+/* note te pixel */
+.services {
+    background-color: mediumturquoise;
+    width: 250px;
+    height: 250px;
+}

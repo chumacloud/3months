@@ -1,0 +1,53 @@
+.header {
+    color: blue;
+    background-color: bisque;
+}
+
+.navigation{
+    background-color: blueviolet;
+    color: rgb(247, 243, 243);
+    font-weight: 800;
+    border: 3px solid rgb(120, 10, 153);
+    margin:2%;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+a {
+    color: white;
+   
+}
+
+.course {
+    color: blue;
+    background-color: bisque;
+    margin: 2%;
+}
+
+.course-exp {
+    color: rgb(172, 18, 192);
+    background-color: black;
+    width: 100%;
+
+}
+
+h4 {
+    color: blue;
+    background-color: bisque;
+}
+
+.explain {
+    /* background: linear-gradient(10deg, red, blue); */
+    background: url(images/about.jpg);
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 800;
+    padding: 10px 5px;
+    border-radius: 10px;
+    margin: 2%;
+   
+}
+
+
