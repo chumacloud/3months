@@ -43,12 +43,17 @@ h4 {
     background: radial-gradient(#011f72ec, rgb(165, 61, 235));
     color: white;
     font-size: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
     /* border-radius: 10px; */
     /* border-top: none; */
 }
 
-.banner-text{
-    padding: 15px;
+.banner-text {
+    flex: 1 1 400px;
+    padding: 10px;
 }
 
 .banner span {
@@ -59,16 +64,26 @@ h4 {
     color: orange;
 }
 
-.banner img {
+.banner-pix {
+    flex: 1 1 400px;
+
+}
+
+.banner-pix img {
     width: 100%;
     border-radius: 10px;
     border-radius: 0 0 0 10px;
 }
-button{
-    border-radius: 7px;
-    border: none;
-    color: blueviolet;
-    padding: 5px;
+
+.flexwrap{
+    padding: 10px;
+    /* flex: 1 1 400px; */
+    background: url(images/layered-steps-haikei.svg);
+    background-size: 100vb;
+    /* background-repeat: no-repeat; */
     font-weight: bold;
-    cursor: pointer;
+}
+
+h3{
+    text-align: center;
 }
